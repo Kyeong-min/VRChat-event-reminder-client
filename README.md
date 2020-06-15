@@ -1,0 +1,1 @@
+# VRChat-event-reminder-client
