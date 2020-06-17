@@ -67,6 +67,18 @@ VR하드웨어 및 SteamVR이 설치되어 있지 않은 환경에서는 Windows
 - NotificationBroker\logger.log 파일
 
 # About
-개발: HATENA @isHATENA
+- 개발: HATENA([@isHATENA](https://twitter.com/isHATENA))
+- 아이콘: コールマン＆アルナイル([@callman_alnair](https://twitter.com/callman_alnair))
+  
+## VRChat 이벤트 개최 정보 출처 표기
+- VRChat イベントカレンダー
+  - https://sites.google.com/view/vrchat-event
+  - 관리운영자 カッコウ ([@nest_cuckoo_](https://twitter.com/nest_cuckoo_))
+- 한국 VRChat 이벤트 캘린더
+  - https://sites.google.com/view/vrcevent-kr
+  - 관리운영자 R3C0D3r([@r3c0d3r](https://twitter.com/r3c0d3r))
 
-아이콘: コールマン＆アルナイル @callman_alnair
+## VRChat 이벤트 개최 정보의 책임범위에 대해서
+- 각 이벤트 개최 정보의 권리는 원칙적으로 각 이벤트 개최 정보의 운영관리자가 가지고 있습니다.
+- 이벤트정보의 등록 및 수정 의뢰는 각 이벤트 개최 정보의 운영관리자에게 연락해주십시오.
+- 이 프로그램에서 발생하는 버그 등의 문제는 개발자인 HATENA에게 제보 부탁드립니다.

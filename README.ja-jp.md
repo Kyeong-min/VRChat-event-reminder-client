@@ -67,6 +67,18 @@ VRハードウェアおよび、SteamVRがインストールされていない�
 - NotificationBroker\logger.log ファイル
 
 # About
-開発: HATENA @isHATENA
+- 開発: HATENA([@isHATENA](https://twitter.com/isHATENA))
+- アイコン: コールマン＆アルナイル([@callman_alnair](https://twitter.com/callman_alnair))
 
-アイコン: コールマン＆アルナイル @callman_alnair
+## VRChatイベント開催情報の情報取得元明記
+- VRChat イベントカレンダー
+  - https://sites.google.com/view/vrchat-event
+  - 運営管理者 カッコウ ([@nest_cuckoo_](https://twitter.com/nest_cuckoo_))
+- 한국 VRChat 이벤트 캘린더
+  - https://sites.google.com/view/vrcevent-kr
+  - 運用管理者 R3C0D3r([@r3c0d3r](https://twitter.com/r3c0d3r))
+
+## VRChatイベント開催情報の責任範囲について
+- 各イベント開催情報の権利は、原則、各イベント開催情報の運営管理者が保持します。
+- イベント開催情報の登録、修正の依頼は、各イベント開催情報の運営管理者にてお願いいたします。
+- 本アプリの不具合などの問題は、開発者であるHATENAにてお願いいたします。
