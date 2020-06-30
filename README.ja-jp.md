@@ -1,7 +1,7 @@
 VRChat event reminder
 =====================
 
-- [ダウンロード (Alpha)](https://github.com/Kyeong-min/VRChat-event-reminder-client/releases/tag/alpha)
+- [ダウンロード (Alpha 0.0.2)](https://github.com/Kyeong-min/VRChat-event-reminder-client/releases/tag/A0.0.2)
 
 このアプリは、VRChatで開催される、様々にイベントに忘れずに参加できるようにお助けします。
 

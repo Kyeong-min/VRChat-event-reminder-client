@@ -1,7 +1,7 @@
 VRChat event reminder
 =====================
 
-- [다운로드 (Alpha)](https://github.com/Kyeong-min/VRChat-event-reminder-client/releases/tag/alpha)
+- [다운로드 (Alpha 0.0.2)](https://github.com/Kyeong-min/VRChat-event-reminder-client/releases/tag/A0.0.2)
 
 이 프로그램은 VRChat에서 개최되는 여러 이벤트에 잊지 않고 참여할 수 있도록 도와줍니다.
 
