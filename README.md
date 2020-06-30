@@ -3,5 +3,7 @@ VRChat event reminder client
 
 # READ ME
 
-- [Japanese](README.ja-jp.md)
-- [Korean](README.ko-kr.md)
+- [日本語](README.ja-jp.md)
+- [한국어](README.ko-kr.md)
+
+Sorry, There are no plans to offer the English version.
