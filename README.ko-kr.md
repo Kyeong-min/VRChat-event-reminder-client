@@ -14,7 +14,6 @@ VRChat event reminder
   - NotificationBroker/NotificationBroker.exe를 수동으로 실행시켜야 합니다.
 - 인스톨러를 이용한 설치
   - Alpha버전에서는 압축 파일 형태로 제공됩니다.
-- 이벤트 목록의 정렬, 검색 등
 
 # 이 프로그램을 사용하기 위해서는 아래의 조건을 만족햐여야 합니다.
 

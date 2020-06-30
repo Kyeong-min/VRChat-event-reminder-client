@@ -14,7 +14,6 @@ VRChat event reminder
   - NotificationBroker/NotificationBroker.exeを手動で起動してください。
 - インストーラ
   - α版では、圧縮ファイルの形で提供されます。
-- イベントリストのソート、検索など
 
 # このアプリをお使いになるためには、下記の条件を満たす必要があります。
 
