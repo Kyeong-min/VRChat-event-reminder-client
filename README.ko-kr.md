@@ -9,9 +9,6 @@ VRChat event reminder
 
 # 현재 이 프로그램은 알파테스트중입니다.
 
-알파테스트 중에는 아래 기능을 지원하지 않습니다.
-- SteamVR 기동시에 Overlay표시를 위한 어플리케이션이 자동으로 실행되지 않습니다.
-  - NotificationBroker/NotificationBroker.exe를 수동으로 실행시켜야 합니다.
 - 인스톨러를 이용한 설치
   - Alpha버전에서는 압축 파일 형태로 제공됩니다.
 

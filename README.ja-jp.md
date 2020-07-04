@@ -9,9 +9,6 @@ VRChat event reminder
 
 # 現在当アプリはαテスト版です。
 
-αテスト版では、下記機能をサポートいたしません。
-- SteamVR起動時、Overlay表示のためのアプリが自動で起動されません。
-  - NotificationBroker/NotificationBroker.exeを手動で起動してください。
 - インストーラ
   - α版では、圧縮ファイルの形で提供されます。
 
