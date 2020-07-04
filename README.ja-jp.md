@@ -1,7 +1,7 @@
 VRChat event reminder
 =====================
 
-- [ダウンロード (Alpha 0.0.2)](https://github.com/Kyeong-min/VRChat-event-reminder-client/releases/tag/A0.0.2)
+- [ダウンロード (Alpha 0.0.3)](https://github.com/Kyeong-min/VRChat-event-reminder-client/releases/tag/0.0.3-alpha)
 
 このアプリは、VRChatで開催される、様々にイベントに忘れずに参加できるようにお助けします。
 
@@ -29,29 +29,51 @@ VRChat event reminder
 VRハードウェアおよび、SteamVRがインストールされていない環境では、Windows toast notificationを通じてのみ、イベントの開催をお知らせできます。
 ````
 
-# 簡単なHow to use.
-1. ダウンロードしたalpha.zipファイルを適当な位置に解凍してください。
-2. NDP472-KB4054531-Web.exeを起動し、指示に従い、ランタイムをインストールします。
-  - 既にインストール済みであれば、インストールする必要はありません。
-3. VRChatEventReminderフォルダーのVRChatEventReminder.exeファイルを実行してください。
-   ![00](image/100.jpg)
-   
-4. タスクトレイアイコンから、VRChat event reminderをダブルクリック、又はマウス右クリック→Openを押下してください。
-   ![01](image/jp/01.JPG)
+# このアプリの構成要素について
+ダウンロードした圧縮ファイルを任意のフォルダーに解凍し、下記の構成要素をご確認ください。
 
-5. 左のメニューから、イベントリストをクリックしてください。
+1. VRChatEventReminder フォルダー
+   * VRChat Event Reminder 本体です。
+2. NotificationBroker フォルダー
+   * イベントのアラームをVR HMD上で表示するための構成要素です。
+3. NDP472-KB4054531-Web.exe
+   * VRChat Event Reminderの起動するため必要な .NET Framework Runtimeです。
+4. VC_redist.x64.exe
+   * NotificationBrokerを起動するため必要な再頒布可能パッケージです。
+5. ReadMe.xx-xx.txt
+   * 簡単な説明です。
+
+# インストール手順
+1. ダウンロードしたalpha_x.x.x.zip 파일의 압축을 해제합니다.
+2. NDP472-KB4054531-Web.exeを起動し、指示に従い、ランタイムをインストールします。
+   * 既にインストール済みであれば、インストールする必要はありません。
+3. NotificationBroker\manifest_install.bat ファイルを実行します。
+   * SteamVR起動の際、NotificationBrokerが自動的に起動されるため、SteamVRに登録します。
+   * 実行した際、エラーメッセージが出なければOKです。
+   * もし、DLL関連のエラーが生じる場合、VC_redist.x64.exeを起動し、再頒布可能パッケージをインストールしてください。
+   * dll 関連問題以外のエラーが生じた場合、エラーの内容と、NotificationBrokerフォルダーのlogger.logをHATENAまで送っていただくと助かります。
+
+# 簡単なHow to use.
+1. VRChatEventReminderフォルダーのVRChatEventReminder.exeファイルを実行してください。
+
+2. ![00](image/100.jpg)タスクトレイアイコンから、VRChat event reminderをダブルクリック、又はマウス右クリック→Openを押下してください。
+
+3. ![01](image/jp/01.JPG)左のメニューから、イベントリストをクリックしてください。
 ![02](image/jp/02.JPG)
   - End アイコンが表示されているイベントは、終了されています。アラームの設定はできません。
   - 再生ボタンアイコン(▶)の表示されたイベントは現在開催中のイベントです。イベントの進行度を確認できます。アラームの設定はできません。
   - 背景のないBellアイコンは、アラームを設定していないイベントです。このアイコンをクリックすることで、イベントに対してアラームを設定できます。
   - 背景のあるBellアイコンは、アラーム設定済みのイベントです。このイベントは開催15分前、開催する際にアラームをもらうことができます。このアイコンをクリックすることで、イベントに対するアラームを解除できます。
-6. イベントリストから、イベントをクリックすることで、イベントに対する詳細情報が見れます。
+4. イベントリストから、イベントをクリックすることで、イベントに対する詳細情報が見れます。
 ![03](image/jp/03.jpg)
   - イベントの概要、開始時刻、終了時刻、情報の更新時刻、イベントの詳細情報が見れます。
   - できるのであれば、イベントに対する広告イメージを表示します。
   - イメージが表示されている場合に限って、イメージをクリックして全体イメージが見れます。
 
 ## VR HMDでアラームを見るために
+インストール手順３のNotificationBroker\manifest_install.batファイルを実行しましたら、下記１，２の手順は不要です。
+SteamVR起動時に自動的にNotificationBrokerが自動的に起動され、HMD上にアラームが表示できます。
+
 1. NotificationBroker/NotificationBroker.exeファイルを起動してください。
    - この際、SteamVRが起動中でない場合、SteamVRが自動で起動されます。
 2. イベントが開催される前に、イベントの開催を知らせるアラームをVR HMD上で見れます。
