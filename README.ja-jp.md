@@ -15,7 +15,7 @@ VRChat event reminder
 # このアプリをお使いになるためには、下記の条件を満たす必要があります。
 
 ## 必須
-- ウィンドウズ10 64ビット
+- Windows 10 64bit
 - .NET Framework 4.7.2 Runtime [ダウンロード](http://go.microsoft.com/fwlink/?LinkId=863262)
 
 ## オプション

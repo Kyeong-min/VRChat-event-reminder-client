@@ -15,7 +15,7 @@ VRChat event reminder
 # 이 프로그램을 사용하기 위해서는 아래의 조건을 만족햐여야 합니다.
 
 ## 필수
-- 윈도우 10 64bit
+- Windows 10 64bit
 - .NET Framework 4.7.2 Runtime [다운로드](http://go.microsoft.com/fwlink/?LinkId=863262)
 
 ## 선택
