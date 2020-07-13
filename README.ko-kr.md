@@ -1,16 +1,11 @@
 VRChat event reminder
 =====================
 
-- [다운로드 (Alpha 0.0.3)](https://github.com/Kyeong-min/VRChat-event-reminder-client/releases/tag/0.0.3-alpha)
+- [다운로드 (1.0.0)](https://github.com/Kyeong-min/VRChat-event-reminder-client/releases/tag/v1.0.0)
 
 이 프로그램은 VRChat에서 개최되는 여러 이벤트에 잊지 않고 참여할 수 있도록 도와줍니다.
 
 지정한 이벤트가 개최되기 전에 Windows toast notification 및 VR HMD에 오버레이로 알려줍니다.
-
-# 현재 이 프로그램은 알파테스트중입니다.
-
-- 인스톨러를 이용한 설치
-  - Alpha버전에서는 압축 파일 형태로 제공됩니다.
 
 # 이 프로그램을 사용하기 위해서는 아래의 조건을 만족햐여야 합니다.
 
@@ -26,33 +21,12 @@ VRChat event reminder
 VR하드웨어 및 SteamVR이 설치되어 있지 않은 환경에서는 Windows toast notification을 통해서만 이벤트를 알립니다.
 ````
 
-# 프로그램의 구성 요소
-다운받은 프로그램의 압축을 임의의 폴더에 해제하고 아래 구성 요소를 확인해주십시오.
-
-1. VRChatEventReminder 폴더
-   * VRChat Event Reminder 본체입니다.
-2. NotificationBroker 폴더
-   * 이벤트 알람을 VR HMD에 표시하기 위한 구성 요소입니다.
-3. NDP472-KB4054531-Web.exe
-   * VRChat Event Reminder를 실행하기 위한 .NET Framework Runtime입니다.
-4. VC_redist.x64.exe
-   * NotificationBroker를 실행하기 위한 재배포 가능 패키지입니다.
-5. ReadMe.xx-xx.txt
-   * 간단한 설명입니다.
-
 # 설치방법
-1. 다운로드 한 후 alpha_x.x.x.zip 파일의 압축을 해제합니다.
-2. NDP472-KB4054531-Web.exe를 실행하여 지시에 따라 설치합니다.
-   * 이미 설치되어 있다면 설치하지 않아도 됩니다.
-3. NotificationBroker\manifest_install.bat 파일을 실행합니다.
-   * SteamVR이 실행될 때 NotificationBroker가 자동으로 실행되도록 SteamVR에 등록합니다.
-   * 실행하였을 때 아무런 에러도 발생하지 않는다면 성공입니다.
-   * 만약 컴퓨터에 MSVxxxxx.dll이 없어 실행할 수 없다는 에러가 발생할 경우, VC_redist.x64.exe를 실행하여 재배포 가능 패키지를 설치해주십시오.
-   * dll 관련 문제 이외의 에러가 발생하였다면 에러 메시지 내용과 NotificationBroker\logger.log파일을 HATENA에게 보내주십시오.
-
+1. 다운로드 한 VRChatEventReminder_Setup.exe 파일을 실행하고 지시에 따라 설치해주세요.
 
 # 간단한 사용법
-1. VRChatEventReminder 폴더의 VRChatEventReminder.exe 파일을 실행합니다.
+1. VRChat Event Reminder를 실행합니다.
+   - 기본적으로 윈도우가 부팅되면 자동적으로 실행됩니다.
 
 2. ![00](image/100.jpg)트레이 아이콘에서 VRChat event reminder 아이콘을 더블클릭 혹은 마우스 우클릭 -> Open을 클릭합니다.
 
@@ -69,11 +43,7 @@ VR하드웨어 및 SteamVR이 설치되어 있지 않은 환경에서는 Windows
   - 이미지가 표시되는 경우에 한하여 이미지를 클릭하면 전체 사이즈 이미지가 표시됩니다.
 
 ## VR HMD에서 알림을 받기 위해서
-설치방법에 따라 3. NotificationBroker\manifest_install.bat 파일을 실행했다면 아래 1, 2는 무시하셔도 됩니다.
-SteamVR을 실행하면 자동으로 NotificationBroker가 실행되고 HMD상에 알람이 표시됩니다.   
-
-1. NotificationBroker/NotificationBroker.exe 파일을 실행합니다.
-   - 이 때, SteamVR이 실행되어있지 않다면 자동으로 실행됩니다.
+1. SteamVR을 실행합니다.
 2. 이제 이벤트에 대한 알람을 VR HMD에서 확인할 수 있습니다.
 3. SteamVR Dashboard에서 VRChat event reminder 대시보드를 통해 알람의 표시 방법을 설정할 수 있습니다.
 ![gif01](image/001.gif)
@@ -89,8 +59,8 @@ SteamVR을 실행하면 자동으로 NotificationBroker가 실행되고 HMD상�
 - [Github repository](https://github.com/Kyeong-min/VRChat-event-reminder-client/issues)에 issue를 만들어주세요.
 
 저게에 알려주실 때 로그 파일을 함께 제공해주시면 문제 해결에 도움이 됩니다.
-- VRChatEventReminder\log\ 경로에 있는 모든 *.log 파일
-- NotificationBroker\logger.log 파일
+- 설치 경로\VRChatEventReminder\log\ 경로에 있는 모든 *.log 파일
+- 설치 경로\VRChatEventReminder\NotificationBroker\logger.log 파일
 
 # About
 - 개발: HATENA([@isHATENA](https://twitter.com/isHATENA))
